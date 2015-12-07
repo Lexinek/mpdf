@@ -84,6 +84,11 @@ starting at 1, as they appear in the .ttc file e.g.
 */
 
 $this->fontdata = array(
+	"pixchicago" => [
+			"R" => "PixChicago.ttf",
+			"B" => "PixChicago.ttf",
+			"I" => "PixChicago.ttf",
+		],
 	"dejavusanscondensed" => array(
 		'R' => "DejaVuSansCondensed.ttf",
 		'B' => "DejaVuSansCondensed-Bold.ttf",
