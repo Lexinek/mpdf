@@ -1629,10 +1629,6 @@ class mPDF
 					$format = array(433.70, 663.30);
 					break;
 				} //	'Royal' format paperback size 153x234mm
-			default: {
-					$format = array(595.28, 841.89);
-					break;
-				}
 		}
 		return $format;
 	}
