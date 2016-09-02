@@ -39,7 +39,7 @@ var $restrictToSyllable;
 var $lbdicts;	// Line-breaking dictionaries
 var $LuDataCache;
 
-function otl(&$mpdf) {
+function __construct(&$mpdf) {
 	$this->mpdf = $mpdf;
 
 	$this->arabic_initialise();
